@@ -12,6 +12,7 @@ Your ISP sucks? Or Aliyun sucks. Poor network resource? Or you don't have nough 
         |-- _INSTALL_.bat (copy from bin)
         |-- bin
         |   `-- .. CLONED RELEASE
+        |   `-- dispatch.txt
         `-- .. your game dirs here
     ```
     - *(Optional)* Required dependencies, within `bin` directory
@@ -23,6 +24,10 @@ Your ISP sucks? Or Aliyun sucks. Poor network resource? Or you don't have nough 
     Make sure the http directory have:
 
     - `_latest` (which will point to the `*.tar.zst` file, relatively, this is good for caching at the edge)
+ 
+    Now you have the download directory which contain both `_latest` and the archive file, put that directory path in `dispatch.txt`. If you unsure what to fill in, read below
+  
+- ### Run the script (not in the `bin` please)
 
 ## How to redistribute
 
