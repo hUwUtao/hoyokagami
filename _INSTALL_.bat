@@ -1,0 +1,1 @@
+bin\busybox ash bin/main.sh
